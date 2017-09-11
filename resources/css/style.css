@@ -10,6 +10,10 @@ h1, h4, a {
   color: white;
 }
 
+.main-banner {
+  background: no-repeat center/150% url("../images/building.png") ;
+}
+
 h1 {
   font-size: 70px;
   font-weight: bold;
@@ -33,11 +37,13 @@ p {
   font-size: 14px;
 }
 
-#new-york {
+.lower-banner {
   font-size: 23px;
   font-weight: bold;
   color: white;
+  background: url("../images/building.png");
 }
+
  #copyright {
    font-size: 11px;
    background-color: dimgray;
